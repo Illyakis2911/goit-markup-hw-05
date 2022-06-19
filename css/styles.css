@@ -684,14 +684,14 @@ img {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
 }
 
 .projects-overlay {
 }
 
 .projects-sam {
+  position: relative;
+  overflow: hidden;
 }
 
 .projects-cart {
@@ -710,6 +710,7 @@ img {
   transition: transform var(--transition), opacity var(--transition);
   opacity: 1;
 }
+
 .projects-item {
   display: block;
   padding: 20px 24px;
