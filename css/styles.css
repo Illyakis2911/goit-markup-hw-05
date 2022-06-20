@@ -102,6 +102,7 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation.current {
@@ -144,6 +145,7 @@ img {
   color: #757575;
   display: flex;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adrec-icon {
   display: block;
@@ -399,6 +401,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc:hover,
 .soc:focus {
@@ -415,6 +418,7 @@ img {
   text-align: center;
   fill: #afb1b8;
   padding: auto;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc:hover .svg-icon,
@@ -477,6 +481,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-right: 30px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-icon:hover,
 .customers-icon:focus {
@@ -486,6 +491,7 @@ img {
 .icon-to {
   margin: 16px 32px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-icon:hover .icon-to,
 .customers-icon:focus .icon-to {
@@ -605,6 +611,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc:hover,
 .footer-soc:focus {
